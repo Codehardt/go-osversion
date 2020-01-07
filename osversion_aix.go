@@ -17,5 +17,5 @@ func Get() (string, error) {
 	if err != nil {
 		return "", err
 	}
-	return fmt.Sprintf("%s.%s", strings.TrimSuffix(string(version), "\n"), strings.TrimSuffix(string(release), "\n"))
+	return fmt.Sprintf("%s.%s", strings.TrimSuffix(string(version), "\n"), strings.TrimSuffix(string(release), "\n")), nil
 }
