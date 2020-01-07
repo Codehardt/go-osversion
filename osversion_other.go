@@ -1,4 +1,4 @@
-//+build darwin
+//+build !aix,!darwin,!linux,!windows
 
 package osversion
 
